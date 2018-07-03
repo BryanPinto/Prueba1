@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1 width=device-width">
+  <title>Fundación Niños y Cáncer</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Google Fonts | ROBOTO fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar Bootstrap-->
+  <nav class="navbar navbar_fundacion navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.jpg" alt="Logo Fundación Niño y Cáncer">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar__navigation">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- Carrusel slider -->
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/s1.jpg" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="images/2.png" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="images/3.jpg" class="img-responsive">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+
+
+ <!-- Thumbnails -->
+
+<div class="container">
+	<div class="col-md-12 col-sm-6">
+		<h1 class="titulo-resumen">Resumen noticias</h1>
+	</div>
+	<div class="row">
+  		<div class="col-md-4 col-sm-6">
+  			<div class="thumbnail">
+				<img src="images/t1.jpg" class="img-responsive img-rounded">
+				<div class="content">
+				<h3>Becas de estudio</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<button>Ver más</button>
+				</div>
+			</div>
+		</div>
+
+	<div class="col-md-4 col-sm-6">
+  		<div class=" thumbnail">
+	  		<img src="images/t2.jpg" class="img-responsive img-rounded">
+	  		<div class="content">
+	  		<h3>Tallarinata</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<button>Ver más</button>
+	  		</div>
+	    </div>
+	</div>
+
+	<div class="col-md-4 col-sm-6">
+  		<div class=" thumbnail">
+	  		<img src="images/t3.jpg" class="img-responsive img-rounded">
+	  		<div class="content">
+	  		<h3>Montaña de la alegría</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<button>Ver más</button>
+	  		</div>
+	    </div>
+	</div>
+	</div>
+</div>
+
+  <!-- Footer -->
+  <footer class="footer_fundacion">
+    <div class="row">
+    	<div class="col-md-4 col-sm-6">
+    		<form>
+    			<h3>Contacto</h3>
+				<input type="text" name="nombre" placeholder="Ingrese un nombre..."><br><br>
+				<input type="text" name="correo" placeholder="Ingrese un correo..."><br><br>
+				<textarea placeholder="Ingrese sus comentarios..."></textarea><br>
+				<button>Enviar</button>
+			</form>
+    	</div>
+
+    	<div class="col-md-4 col-sm-6">
+    		<i class="fab fa-facebook"></i>
+    		<i class="fab fa-twitter-square"></i>
+    	</div>
+
+    	<div class="col-md-4 col-sm-6">
+    		<img src="images/map.png" class="img-responsive">
+    	</div>
+    </div>
+  </footer>
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Font Awesome 5 -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <!-- Main scripts -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
