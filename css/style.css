@@ -80,12 +80,20 @@ p {
 
 /* Carrusel slider */
 
-#myCarousel {
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
     margin-top: 95px;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.carousel-inner h1{
+    text-align: center;
+    font-size: 80px;
+    color: black;
 }
 
 /* Thumbnails */
