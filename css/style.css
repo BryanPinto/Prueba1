@@ -41,12 +41,15 @@ p {
   }
 
 }
+body{
+  margin: 0;
+}
 
 /* Navbar */
 
 .navbar_fundacion {
-  background-color: #5467a9;
-  color: hsla(0, 100%, 100%, 0.52);
+    background-color: #9dace0;
+    color: hsla(0, 100%, 100%, 0.52);
 }
 .icon-bar {
   background-color: #fff;
@@ -55,8 +58,8 @@ p {
 .navbar-brand img {
     height: 65px;
     width: 150px;
-    border-radius: 15px;
-    border: solid 1px royalblue;
+    border-radius: 35px;
+    margin-top: -19px;
 }
 
 .navbar-nav > li > a {
@@ -74,8 +77,8 @@ p {
 .navbar {
     margin-bottom: 0px;
     border-radius: 0;
-    height: 95px;
-    padding: 20px;
+    height: 78px;
+    padding: 10px;
 }
 
 /* Carrusel slider */
@@ -85,15 +88,63 @@ p {
     width: 100%;
     height: 400px;
     overflow: hidden;
-    margin-top: 95px;
+    margin-top: 58px;
 }
-.carousel-inner img{
+.carousel-inner img {
     width: 100%;
+    position: absolute;
+    opacity: 0.9;
 }
 .carousel-inner h1{
     text-align: center;
-    font-size: 80px;
-    color: black;
+    font-size: 50px;
+    color: #1d7cce;
+    position: relative;
+    text-shadow: 1.5px 1px silver;
+}
+
+@media (max-width:600px){
+  /* Carrusel slider */
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin-top: 58px;
+}
+.carousel-inner img {
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;
+    height: 58px;
+}
+.carousel-inner h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1d7cce;
+    position: relative;
+    text-shadow: 1.5px 1px silver;
+}
+
+/* Thumbnails */
+
+.thumbnail {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+}
+.container .titulo-resumen {
+    text-align: center;
+    font-size: 40px;
+}
+
 }
 
 /* Thumbnails */
@@ -114,20 +165,65 @@ p {
     font-size: 60px;
 }
 
+/* Button */
+
+.button_fundacion {
+    background-color: #9dace0;
+    border-radius: 30px;
+    padding: 1.5rem 5rem;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
+
+.button_fundacion:hover {
+  background-color: hsla(227, 100%, 60%, .1);
+  color: #325DFF;
+}
+
 /* Footer */
 
 .footer_fundacion {
-  background-color: #141414;
-  padding: 5vw 1rem;
+  background-color: #251f1fd9;
+  padding: 2vw 1rem;
   text-align: left;
 }
-.footer_fundacion input, textarea{
-  width: 153px;
+
+
+input[type=text], input[type=tel], input[type=email] {
+    width: 100%;
+    padding: 2px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+}
+.footer_fundacion label,span{
+  color: white;
 }
 
-.footer_fundacion button{
-  width: 60px;
+.footer_fundacion span {
+    padding: 20px;
+    letter-spacing: 7px;
 }
+ 
+textarea {
+    width: 100%;
+    height: 90px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+
 
 
 
