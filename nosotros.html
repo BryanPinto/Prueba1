@@ -2,26 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1 width=device-width">
   <title>Fundación Niños y Cáncer</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <!-- Google Fonts | lato & poppins fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+  <!-- Google Fonts | ROBOTO fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   <!-- Main Styles -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></link>
+
+
+
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar_fundacion">
+  <!-- Navbar Bootstrap-->
+  <nav class="navbar navbar_fundacion navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -39,136 +46,78 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right navbar__navigation">
-          <li><a href="#">Index</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-
     </div><!-- /.container-fluid -->
   </nav>
 
+  <!-- QUIENES SOMOS -->
+
   <!-- Header -->
-  <header class="container-fluid header_di-buffala">
-    <h1>Lorem Ipsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a class="btn button_di-buffala" href="#">Conoce Más</a>
+  <header class="container-fluid header_fundacion">
+    <h1><strong>Quienes somos</strong></h1>
   </header>
 
-  <!-- Blog -->
-  <section class="container-fluid blog">
-    <div class="row">
-      <div class="blog__inner col-lg-6 col-md-6 col-sm-12">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver blog</a>
-      </div>
-      <div class="blog__inner blog__inner_background col-lg-6 col-md-6 col-sm-12"></div>
+  <!--historia-->
+
+  <div class="row">
+    <div class="col-md-10 col-sm-12 col-md-offset-1">
+      <p class="contenido">El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
+
+      <p class="contenido">En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
     </div>
-  </section>
+  </div>
 
-  <!-- Features -->
-  <section class="container-fluid features">
-    <h2>Lorem ipsum dolor sit</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-exchange-alt"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-             <i class="far fa-smile"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-suitcase"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-user"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fas fa-recycle"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="features__inner">
-          <div class="features__inner-icon">
-            <i class="fa far fa-thumbs-up"></i>
-          </div>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
-        </div>
-      </div>
+  <!--Jumbotron para mision-->
+
+  <div class="jumbotron">
+    <div class="container">
+        <h2>Nuestra misión</h2>
     </div>
-  </section>
+  </div>
 
-  <!-- Video -->
-  <section class="embed-responsive embed-responsive-16by9 video">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZGn8kSV9gAA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <div class="video__inner">
-      <h2>Nuestros Exitos</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
+  <div class="row">
+    <div class="col-md-10 col-sm-12 col-md-offset-1">
+      <p class="contenido"> 
+        La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar.
+      </p>
+
+      <p class="contenido">La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse.
+      </p>
     </div>
-  </section>
+  </div>
 
-  <!-- Portfolio section -->
-  <section class="container-fluid portfolio">
-    <h2>Trabajos Destacados</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.</p>
-    <hr>
-    <div class="row">
-      <div class="portfolio__inner col-lg-6 col-md-6 col-sm-12">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
-      <div class="portfolio__inner portfolio__inner__image-top col-lg-6 col-md-6 col-sm-12"></div>
 
-      <div class="portfolio__inner portfolio__inner__image-middle col-lg-6 col-md-6 col-sm-12"></div>
-      <div class="portfolio__inner col-lg-6 col-md-6 col-sm-12">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
 
-      <div class="portfolio__inner col-lg-6 col-md-6 col-sm-12">
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
-        <a class="btn button_di-buffala" href="#">Ver trabajo</a>
-      </div>
-      <div class="portfolio__inner portfolio__inner__image-bottom col-lg-6 col-md-6 col-sm-12"></div>
-  </section>
 
   <!-- Footer -->
-  <footer class="footer_di-buffala">
-    <small>DiBufalla 2018. Todos los derechos reservados.</small>
+  <footer class="footer_fundacion">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 col-md-offset-1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5091344476687!2d-70.53933968518517!3d-33.38387898079301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1530667508763" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-md-offset-1">
+        <form method="post"> 
+ 
+          <label for="nombre">Nombre</label> <input type="text" size=36 name="nombre"></input> 
+          <label for="email">E-mail</label> <input type="email" size=36 name="email"></input> 
+          <label for="message">Mensaje</label> <textarea rows=5 cols=30 name="mensaje"></textarea> 
+          <br>
+          <button>Enviar</button>
+        </form> 
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-md-offset-1">
+        <a href="#"><span class="fab fa-facebook-square">/fundacion-ninoycancer</span></a></br>
+        <a href="#"><span class="fab fa-instagram">/ninoycancer</span></a></br>
+        <a href="#"><span class="fab fa-twitter-square">/@ninoycancer</span></a>
+      </div>
+
+    </div>
   </footer>
 
 
@@ -176,9 +125,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- Font Awesome 5 -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <!-- Main scripts -->
-  <script src="assets/js/scripts.js"></script>
+  
+  
 </body>
 </html>
