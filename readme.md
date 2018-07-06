@@ -7,4 +7,4 @@
 
 ### Link GitHub Pages
 
-https://bryanpinto.github.io/ClasePresencial10/
+https://bryanpinto.github.io/Prueba1/
